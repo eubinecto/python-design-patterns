@@ -1,4 +1,4 @@
-# The Builder Pattern in Python
+# The PizzaBuilder Pattern in Python
 ## What?
 
 
@@ -22,7 +22,7 @@ Any examples?
 ## How?
 As for the HTML page generator example, we could employ two 
 main participants:
- - The Builder: defines the logics for the construction of an object 
+ - The PizzaBuilder: defines the logics for the construction of an object 
  - The Director: **uses** builders to construct an object, step-by-step.
 
 
@@ -43,3 +43,5 @@ another difference (not sure what this means?):
  
 
 
+## Side notes
+why use patterns at all? -> For ease of communication. To have a common language.
