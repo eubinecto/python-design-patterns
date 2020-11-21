@@ -5,7 +5,7 @@ __pycache__/
 
 #virtual env
 pdpenv
-
+data
 # C extensions
 *.so
 
