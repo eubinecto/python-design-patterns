@@ -40,9 +40,13 @@ class LocalFileFetcher(ResourceContentFetcher):
             print(fh.read())
 
 
+# implementation classes are defined separately from this resourceContent,
+# so that we can decouple the end-user requirements (e.g. show_content)
+# from the implementation details.
 class ResourceContent:
     """
     define the abstraction's interface.
+    This is the "abstraction interface" used by the client.
     """
     def __init__(self, imp: ResourceContentFetcher):
         # the trick is to maintain a reference to an object which represents
